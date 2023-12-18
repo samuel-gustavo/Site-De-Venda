@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(27, 27, 65);
+}
+
+.nomeSite {
+    color: white;
+    font-size: 2.5em;
+}
+
+#botaoCarrinho {
+    height: 70px;
+    width: 200px;
+}
+
+#divBotao {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+#divBotao #imagemCarrinho {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+#divBotao p {
+    font-size: 1.4rem;
+    color: white;
+    font-weight: bold;
+}
+
+i {
+    font-size: 35px;
+    margin-left: 38px;
+    padding: 0 3px 0 20px;
+    color: white;
+}
+
+.opcoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 800px;
+}
+
+.opcoes .divIconeDescricao {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 150px;
+}
+
+.opcoes .divIconeDescricao .descricao {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Final Header */
+
+.estruturaCentral .anuncio {
+    height: 25vh;
+    width: 100%;
+    display: inline-flex;
+    background-color: black;
+}
+
+.estruturaCentral .anuncio .logo{
+    height: 25vh;
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.estruturaCentral .anuncio .logo #logoAnuncio{
+    height: 120px;
+    width: 250px
+}
+
+.estruturaCentral .anuncio .produto{
+    height: 25vh;
+    width: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.estruturaCentral .anuncio .produto #textoAnuncio{
+    font-size: 80px;
+    color: white;
+}
+
+.estruturaCentral .anuncio .produto #imgAnuncio{
+    height: 180px;
+    width: 180px;
+}
+
+/* Final do Anúncio */
+
+.estruturaComponente {
+    height: 150vh;
+    width: 100%;
+    background-color: rgb(186, 180, 180);
+}
+
+.estruturaComponente .cabecalho {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: blue;
+}
+
+.estruturaComponente .cabecalho .campoImg {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.estruturaComponente .cabecalho .campoTextValor {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.estruturaComponente .cabecalho .campoImg #img {
+    height: 300px;
+    width: 300px;
+}
+
+.estruturaComponente .cabecalho .campoTextValor .botoes .titulo{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.estruturaComponente .cabecalho .campoTextValor .botoes .textValor{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: rgb(75, 240, 75);
+}
+
+.estruturaComponente .cabecalho .campoTextValor .botoes .botao {
+    height: 80px;
+    width: 150px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(17, 184, 17);
+}
+
+.estruturaComponente .estruturaFixaTecnica {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.estruturaComponente .estruturaFixaTecnica .titulo {
+    padding-top: 30px;
+    font-size: 40px;
+    margin-left: 20px;
+    color: black;
+}
+
+.estruturaComponente .estruturaFixaTecnica .topicos {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(150, 122, 70);
+}
+
+.estruturaComponente .estruturaFixaTecnica .texto {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(141, 132, 132);
+}
